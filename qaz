@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <link rel="shortcut icon" href="images/icon2.png"  type="image/x-icon"> 
+ <meta charset="UTF-8">
+<title>Watch store</title>
+<style>
+#glavnaya {
+	text-align: center; /* Выравниваем текст по центру ячейки */
+            background-color: antiquewhite;
+            color: rgba(90, 0, 0, 0.5);
+}
+body {
+	text-align: center;
+	background:  rgba(25, 150, 100, 0.5); /* Цвет фона */
+
+}
+#home-page {
+	color: rgba(25, 15, 100, 0.5);
+}
+a {
+text-decoration: none;
+}
+.menu {
+    position: fixed; /* Фиксированное положение */
+    right: 10px; /* Расстояние от правого края окна браузера */
+    top: 20%; /* Расстояние сверху */
+    padding: 10px; /* Поля вокруг текста */ 
+    background: #ffe; /* Цвет фона */ 
+    border: 1px solid #333; /* Параметры рамки */ 
+   }
+   #chasi_Ziiro {
+   	color: red
+   }
+
+   #G-SOCK_protect {
+   	color: red
+   }
+   .fon {
+   	 position: fixed;
+       right: 0px;
+       top: 0%;
+   }
+   #fon_2 {
+   	position: fixed;
+   	left: 0px;
+   	top: 0%;
+   }
+   #colec {
+   	position: fixed;
+   	right: 10px;
+   	top: 28%;
+   	padding: 10px;
+   	background: #ffe;
+   	border: 1px solid #333
+   }
+
+
+
+</style>
+</head>
+<body>
+<div class="fon"><img src="images/fon_2.jpg" width="200" height="1500"></div>
+<div id="fon_2"><img src="images/fon_2.jpg" width="200" height="1500"> </div>
+	<div it="glavnaya">
+	 <h1 id="home-page">Меню</h1>
+	 <h2>Здравствуйте! В этом магазине вы сможете купить люые часы.</h2>
+	 <!--Ziiro!-->
+	 <a href="D:\OpenServer\domains\Nimay_1\Ziiro.html"> <img src="images/Ziiro123.jpg" width="290" height="320"><strong id="chasi_Ziiro">Часы Ziiro</strong> </a>
+	 <div class="menu"><a href="file:///D:/OpenServer/domains/Nimay_1/newNimay.html">Меню</a></div>
+	 <div id="colec"><a href="">Колекция Casio</a></div>
+     <div class="text"></div>
+     <!--G-shok_protekt!-->
+     <a href="file:///D:/OpenServer/domains/Nimay_1/G-SHOK_protection.html">
+     <img src="images/G-9300GB-1E.jpg"  width="290" height="320">
+     <strong id="G-SOCK_protect">Casio G-SHOCK G-9300GB-1E</strong></a>
+     
+
+
+	 
+</body>
+</html>
